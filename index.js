@@ -3,6 +3,7 @@ const f2_compare = require('./js/02-comparison.js');
 const f2_leap = require('./js/03-leap.js');
 const f2_square = require('./js/04-square.js');
 const f2_fTn = require('./js/05-ftn.js');
+const f2_div = require('./js/06-dvd.js');
 
 /* 'Nd2_01_f(sum)  */
 // console.log('Nd2_01_f(sum)');
@@ -17,5 +18,8 @@ const f2_fTn = require('./js/05-ftn.js');
 // console.log('Nd2_04_f(Square)');
 // console.log(f2_square.square(4));
 /* 'Nd2_05_f(from 1 to n)  */
-console.log('Nd2_05_f(from 1 to n)');
-console.log(f2_fTn.to(44));
+// console.log('Nd2_05_f(from 1 to n)');
+// console.log(f2_fTn.to(2));
+/* 'Nd2_06_f(divide)  */
+console.log('Nd2_06_f(DIVIDE)');
+console.log(f2_div.divide(4));
