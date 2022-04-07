@@ -7,6 +7,7 @@ const f2_div = require('./js/06-dvd.js');
 const f2_txt = require('./js/07-txtilgis.js');
 const f2_tel = require('./js/08-tel.js');
 const f2_fsTxt = require('./js/09-abtxt.js');
+const f2_a = require('./js/10-aletter.js');
 
 /* 'Nd2_01_f(sum)  */
 // console.log('Nd2_01_f(sum)');
@@ -33,5 +34,8 @@ const f2_fsTxt = require('./js/09-abtxt.js');
 // console.log('Nd2_08_ftel.Nr)');
 // console.log(f2_tel.numberT([7061377180]));
 /* 'Nd2_09_f(tel.NR)  */
-console.log('Nd2_09_atxt & btxt)');
-console.log(f2_fsTxt.abTxt('firstTXT', 'secondTXT'));
+// console.log('Nd2_09_atxt & btxt)');
+// console.log(f2_fsTxt.abTxt('firstTXT', 'secondTXT'));
+/* 'Nd2_10_f(tel.NR)  */
+console.log('Nd2_10_letter a)');
+console.log(f2_a.aTxt('nebepasikiskiakopusteliaudamas'));
