@@ -11,31 +11,31 @@ const f2_a = require('./js/10-aletter.js');
 
 /* 'Nd2_01_f(sum)  */
 // console.log('Nd2_01_f(sum)');
-// console.log(f1_sum.sum(1, 3.2));
+ console.log(f1_sum.sum(1, 3.2));
 /* 'Nd2_02_f(sum)  */
 // console.log('Nd2_02_f(compare)');
-// console.log(f2_compare.compare(12.9, 3.2));
+ console.log(f2_compare.compare(12.9, 3.2));
 /* 'Nd2_03_f(leapYer)  */
 // console.log('Nd2_03_f(LEAP)');
-// console.log(f2_leap.leap(2024));
+ console.log(f2_leap.leap(2024));
 /* 'Nd2_04_f(square)  */
 // console.log('Nd2_04_f(Square)');
-// console.log(f2_square.square(4));
+ console.log(f2_square.square(4));
 /* 'Nd2_05_f(from 1 to n)  */
 // console.log('Nd2_05_f(from 1 to n)');
-// console.log(f2_fTn.to(2));
+ console.log(f2_fTn.to(2));
 /* 'Nd2_06_f(divide)  */
 // console.log('Nd2_06_f(DIVIDE)');
-// console.log(f2_div.divide(4));
+ console.log(f2_div.divide(4));
 /* 'Nd2_07_f(txt.length)  */
 // console.log('Nd2_07_f(txt.length)');
-// console.log(f2_txt.ilgis('nebepasikiskiakopusteliaudamas'));
+ console.log(f2_txt.ilgis('nebepasikiskiakopusteliaudamas'));
 /* 'Nd2_08_f(tel.NR)  */
 // console.log('Nd2_08_ftel.Nr)');
-// console.log(f2_tel.numberT([7061377180]));
+ console.log(f2_tel.numberT([7061377180]));
 /* 'Nd2_09_f(tel.NR)  */
 // console.log('Nd2_09_atxt & btxt)');
-// console.log(f2_fsTxt.abTxt('firstTXT', 'secondTXT'));
+ console.log(f2_fsTxt.abTxt('firstTXT', 'secondTXT'));
 /* 'Nd2_10_f(tel.NR)  */
-console.log('Nd2_10_letter a)');
+// console.log('Nd2_10_letter a)');
 console.log(f2_a.aTxt('nebepasikiskiakopusteliaudamas'));
