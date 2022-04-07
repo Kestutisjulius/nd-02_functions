@@ -6,6 +6,7 @@ const f2_fTn = require('./js/05-ftn.js');
 const f2_div = require('./js/06-dvd.js');
 const f2_txt = require('./js/07-txtilgis.js');
 const f2_tel = require('./js/08-tel.js');
+const f2_fsTxt = require('./js/09-abtxt.js');
 
 /* 'Nd2_01_f(sum)  */
 // console.log('Nd2_01_f(sum)');
@@ -29,5 +30,8 @@ const f2_tel = require('./js/08-tel.js');
 // console.log('Nd2_07_f(txt.length)');
 // console.log(f2_txt.ilgis('nebepasikiskiakopusteliaudamas'));
 /* 'Nd2_08_f(tel.NR)  */
-console.log('Nd2_08_ftel.Nr)');
-console.log(f2_tel.numberT([7061377180]));
+// console.log('Nd2_08_ftel.Nr)');
+// console.log(f2_tel.numberT([7061377180]));
+/* 'Nd2_09_f(tel.NR)  */
+console.log('Nd2_09_atxt & btxt)');
+console.log(f2_fsTxt.abTxt('firstTXT', 'secondTXT'));
